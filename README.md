@@ -1,5 +1,5 @@
 # multichain-python
-Python wrapper on top of This site was built using [Multichain Blockhain](http://www.multichain.com/) with embedded multichain executables already bundled with the package.
+Python wrapper on top of This site was built using [Multichain Blockchain](http://www.multichain.com/) with embedded multichain executables already bundled with the package.
 
 # Prerequisite
 1. install Anaconda 3+ suite (for environment variable CONDA_PREFIX)
