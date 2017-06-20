@@ -1,5 +1,5 @@
 # multichain-python
-Python wrapper on top of Multichain Blockchain with embedded multichain executables
+Python wrapper on top of This site was built using [Multichain Blockhain](http://www.multichain.com/) with embedded multichain executables already bundled with the package.
 
 # Prerequisite
 1. install Anaconda 3+ suite (for environment variable CONDA_PREFIX)
@@ -35,4 +35,34 @@ After setting parameters then proceed with:
 >> api.getinfo()
 ```
 
+which outputs something as follows: 
+```
+{'balance': 0.0,
+ 'blocks': 59,
+ 'burnaddress': '1XXXXXXWxFXXXXXXCgXXXXXXYwXXXXXXX7DMtE',
+ 'chainname': 'chain0',
+ 'connections': 0,
+ 'description': 'MultiChain chain0',
+ 'difficulty': 6e-08,
+ 'errors': '',
+ 'incomingpaused': False,
+ 'keypoololdest': 1497889611,
+ 'keypoolsize': 2,
+ 'miningpaused': False,
+ 'nodeaddress': 'chain0@10.70.57.180:9569',
+ 'nodeversion': 10000201,
+ 'paytxfee': 0.0,
+ 'port': 9569,
+ 'protocol': 'multichain',
+ 'protocolversion': 10008,
+ 'proxy': '',
+ 'reindex': False,
+ 'relayfee': 0.0,
+ 'setupblocks': 60,
+ 'testnet': False,
+ 'timeoffset': 0,
+ 'version': '1.0 beta 1',
+ 'walletdbversion': 2,
+ 'walletversion': 60000}
+```
 All calls are methods to the api_call object: Ex: `api.multichain_api_call()`
