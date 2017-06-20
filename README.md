@@ -35,4 +35,4 @@ After setting parameters then proceed with:
 >> api.getinfo()
 ```
 
-All calls are methods to the api_call object: Ex: api.multichain_api_call()
+All calls are methods to the api_call object: Ex: `api.multichain_api_call()`
