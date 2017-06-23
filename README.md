@@ -2,7 +2,7 @@
 Python package wrapper on top of [Multichain Blockchain](http://www.multichain.com/) with embedded multichain executables already bundled with the package.
 
 # Prerequisite
-1. install Anaconda 3+ suite (for environment variable CONDA_PREFIX)
+1. install Anaconda 3+ suite (for environment variable CONDA_PREFIX = c:/anaconda/)
 
 # install
 1. Using Pip: 
